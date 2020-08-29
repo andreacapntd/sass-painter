@@ -65,6 +65,8 @@ header {
 
         height: 70px;
 
+        cursor: pointer;
+
         img {
 
           height: 25px;
@@ -86,14 +88,32 @@ header {
 
         li {
 
-          font-size: 15px;
+          display: flex;
+          align-items: center;
+
           margin-right: 65px;
+
+          font-size: 15px;
           color: $colorNavbar;
+
+          cursor: pointer;
+
+          .fas {
+
+            font-size: 10px;
+
+            margin-left: 4px;
+
+            color: $colorNavAction;
+
+          }
 
         }
       }
     }
 
   }
+
+  @import "partials/_jumbotron.scss";
 
 }

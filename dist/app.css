@@ -54,6 +54,7 @@
   display: flex;
   align-items: center;
   height: 70px;
+  cursor: pointer;
 }
 
 .wrapper header #navs_container #navbar .logo img {
@@ -69,8 +70,25 @@
 }
 
 .wrapper header #navs_container #navbar #actions_dropdown li {
-  font-size: 15px;
+  display: flex;
+  align-items: center;
   margin-right: 65px;
+  font-size: 15px;
   color: #fff;
+  cursor: pointer;
+}
+
+.wrapper header #navs_container #navbar #actions_dropdown li .fas {
+  font-size: 10px;
+  margin-left: 4px;
+  color: #989898;
+}
+
+.wrapper header #jumbo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 460px;
+  width: 100%;
 }
 
