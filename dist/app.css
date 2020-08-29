@@ -8,59 +8,49 @@
   height: 100vh;
   width: 100%;
 }
-
 .wrapper header #navs_container {
   height: 100px;
   width: 100%;
   padding: 10px 350px;
   background-color: #101010;
 }
-
 .wrapper header #navs_container #nav_action {
   display: flex;
   flex-direction: row-reverse;
   height: 20px;
   width: 100%;
 }
-
 .wrapper header #navs_container #nav_action #action {
   display: flex;
   font-size: 15px;
   list-style-type: none;
 }
-
 .wrapper header #navs_container #nav_action #action li {
   margin-right: 20px;
   cursor: pointer;
   color: #989898;
 }
-
 .wrapper header #navs_container #nav_action #action li .fas {
   margin-right: 7px;
   color: #009cff;
 }
-
 .wrapper header #navs_container #nav_action .language {
   height: 20px;
   cursor: pointer;
 }
-
 .wrapper header #navs_container #navbar {
   display: flex;
   height: 60px;
 }
-
 .wrapper header #navs_container #navbar .logo {
   display: flex;
   align-items: center;
   height: 70px;
   cursor: pointer;
 }
-
 .wrapper header #navs_container #navbar .logo img {
   height: 25px;
 }
-
 .wrapper header #navs_container #navbar #actions_dropdown {
   display: flex;
   align-items: center;
@@ -68,7 +58,6 @@
   margin-left: 30px;
   list-style-type: none;
 }
-
 .wrapper header #navs_container #navbar #actions_dropdown li {
   display: flex;
   align-items: center;
@@ -77,18 +66,29 @@
   color: #fff;
   cursor: pointer;
 }
-
 .wrapper header #navs_container #navbar #actions_dropdown li .fas {
   font-size: 10px;
   margin-left: 4px;
   color: #989898;
 }
-
 .wrapper header #jumbo {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 460px;
   width: 100%;
+  background-image: url(imgs/jumbo.jpg);
+  background-size: cover;
 }
-
+.wrapper header #jumbo .download_buy_container {
+  height: 100%;
+  width: 40%;
+}
+.wrapper header #jumbo .download_buy_container .download {
+  float: left;
+  width: 50%;
+}
+.wrapper header #jumbo .download_buy_container .buy {
+  float: left;
+  width: 50%;
+}

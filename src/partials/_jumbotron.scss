@@ -5,4 +5,29 @@
   height: 460px;
   width: 100%;
 
+  background-image: url(imgs/jumbo.jpg);
+  background-size: cover;
+  
+  .download_buy_container {
+
+    height: 100%;
+    width: 40%;
+
+
+    .download {
+
+      float: left;
+
+      width: 50%;
+
+    }
+
+    .buy {
+
+      float: left;
+
+      width: 50%;
+
+    }
+  }
 }

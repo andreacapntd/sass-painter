@@ -16,6 +16,7 @@ mix
   .sass('src/app.scss', 'dist/')
   .copy('src/*.html', 'dist/')
   .copyDirectory('src/imgs', 'dist/imgs')
+  .options({ processCssUrls: false })
 ;
 
 // Full API
