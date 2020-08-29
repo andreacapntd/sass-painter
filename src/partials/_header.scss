@@ -1,0 +1,99 @@
+header {
+
+  #navs_container {
+
+    height: 100px;
+    width: 100%;
+
+    padding: 10px 350px;
+
+    background-color: $bgColorNav;
+
+    #nav_action {
+
+      display: flex;
+      flex-direction: row-reverse;
+
+      height: 20px;
+      width: 100%;
+
+      #action {
+
+        display: flex;
+
+        font-size: 15px;
+        list-style-type: none;
+
+        li {
+
+          margin-right: 20px;
+
+          cursor: pointer;
+
+          color: $colorNavAction;
+
+          .fas {
+
+            margin-right: 7px;
+
+            color: $bgColorButton;
+
+          }
+        }
+      }
+
+      .language {
+
+        height: 20px;
+
+        cursor: pointer;
+
+      }
+
+    }
+
+    #navbar {
+
+      display: flex;
+
+      height: 60px;
+
+      .logo {
+
+        display: flex;
+        align-items: center;
+
+        height: 70px;
+
+        img {
+
+          height: 25px;
+
+        }
+
+      }
+
+      #actions_dropdown {
+
+        display: flex;
+        align-items: center;
+
+        height: 80px;
+
+        margin-left: 30px;
+
+        list-style-type: none;
+
+        li {
+
+          font-size: 15px;
+          margin-right: 65px;
+          color: $colorNavbar;
+
+        }
+      }
+    }
+
+  }
+
+}
