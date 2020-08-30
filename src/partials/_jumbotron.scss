@@ -17,6 +17,9 @@
     .download {
 
       padding: 35px 0;
+
+      margin-left: 300px;
+
       color: $colorNavbar;
 
       h1, h3, {
@@ -101,12 +104,129 @@
 
     .buy {
 
+      position: relative;
+
       height: 94%;
       width: 20%;
 
       margin: 20px 0 0 25px;
+      padding: 10px;
 
       background-color: rgba(0, 0, 0, 0.9);
+
+      .offer_save {
+
+        @include my_display_flex_center;
+
+        height: 33px;
+        width: 85px;
+
+        margin-bottom: 10px;
+        padding: 5px 10px;
+
+        background-color: $bgColorButtonSave;
+        color: #fff;
+
+      }
+
+      .price_icon {
+
+        p {
+
+          font-size: 20px;
+
+          text-decoration: line-through;
+          color: $colorNavAction;
+
+        }
+
+        span {
+
+          display: block;
+
+          font-size: 26px;
+
+          color: #fff;
+
+        }
+
+        #download {
+
+          margin-top: 10px;
+
+          font-size: 15px;
+
+          color:$colorNavAction;
+
+        }
+
+        img {
+
+          position: absolute;
+
+          top: 20px;
+          right: 10px;
+
+          cursor: pointer;
+
+        }
+      }
+
+      .button_buy_now {
+
+        @include my_display_flex_center;
+
+        height: 35px;
+        width: 150px;
+
+        margin: 20px 0;
+        padding: 5px 10px;
+
+        background-color: $bgColorButton;
+        color: #fff;
+
+      }
+
+      .customer_sale {
+
+        height: 110px;
+        width: 360px;
+
+        margin-top: 30px;
+        padding: 10px;
+
+        cursor: pointer;
+
+        background-color: rgba(255,255,255,.9);
+
+        h4 {
+
+          text-transform: uppercase;
+          font-size: 18px;
+
+        }
+
+        p {
+
+          margin: 8px 0;
+
+        }
+
+        p span {
+
+          font-weight: bold;
+          color: $bgColorButtonSave;
+
+        }
+
+        a {
+
+          color: $bgColorButton;
+          text-decoration: none;
+        }
+
+
+      }
 
     }
   }

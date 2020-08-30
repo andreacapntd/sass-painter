@@ -87,6 +87,7 @@
 }
 .wrapper header #jumbo .download_buy_container .download {
   padding: 35px 0;
+  margin-left: 300px;
   color: #fff;
 }
 .wrapper header #jumbo .download_buy_container .download h1, .wrapper header #jumbo .download_buy_container .download h3 {
@@ -134,8 +135,76 @@
   font-size: 25px;
 }
 .wrapper header #jumbo .download_buy_container .buy {
+  position: relative;
   height: 94%;
   width: 20%;
   margin: 20px 0 0 25px;
+  padding: 10px;
   background-color: rgba(0, 0, 0, 0.9);
+}
+.wrapper header #jumbo .download_buy_container .buy .offer_save {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 33px;
+  width: 85px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background-color: #CC397F;
+  color: #fff;
+}
+.wrapper header #jumbo .download_buy_container .buy .price_icon p {
+  font-size: 20px;
+  text-decoration: line-through;
+  color: #989898;
+}
+.wrapper header #jumbo .download_buy_container .buy .price_icon span {
+  display: block;
+  font-size: 26px;
+  color: #fff;
+}
+.wrapper header #jumbo .download_buy_container .buy .price_icon #download {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #989898;
+}
+.wrapper header #jumbo .download_buy_container .buy .price_icon img {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  cursor: pointer;
+}
+.wrapper header #jumbo .download_buy_container .buy .button_buy_now {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 150px;
+  margin: 20px 0;
+  padding: 5px 10px;
+  background-color: #009cff;
+  color: #fff;
+}
+.wrapper header #jumbo .download_buy_container .buy .customer_sale {
+  height: 110px;
+  width: 360px;
+  margin-top: 30px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.wrapper header #jumbo .download_buy_container .buy .customer_sale h4 {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.wrapper header #jumbo .download_buy_container .buy .customer_sale p {
+  margin: 8px 0;
+}
+.wrapper header #jumbo .download_buy_container .buy .customer_sale p span {
+  font-weight: bold;
+  color: #CC397F;
+}
+.wrapper header #jumbo .download_buy_container .buy .customer_sale a {
+  color: #009cff;
+  text-decoration: none;
 }
