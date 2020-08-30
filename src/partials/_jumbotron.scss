@@ -1,32 +1,112 @@
 #jumbo {
 
-  @include my_display_flex_center;
-
   height: 460px;
   width: 100%;
 
   background-image: url(imgs/jumbo.jpg);
-  background-size: cover;
-  
+  background-size: contain;
+  background-repeat: round;
+
   .download_buy_container {
 
-    height: 100%;
-    width: 40%;
+    @include my_display_flex_center;
 
+    height: 100%;
+    width: 100%;
 
     .download {
 
-      float: left;
+      padding: 35px 0;
+      color: $colorNavbar;
 
-      width: 50%;
+      h1, h3, {
+
+        margin-bottom: 20px;
+
+      }
+
+      h1 {
+
+        font-size: 30px;
+
+      }
+
+      h3 {
+
+        font-size: 25px;
+
+      }
+      .download_list {
+
+        list-style-type: none;
+
+        li {
+
+          font-size: 20px;
+
+          margin-bottom: 15px;
+
+          .fas {
+
+            margin-right: 5px;
+
+            color: $colorNavAction;
+
+          }
+        }
+      }
+
+      .download_button_trial {
+
+        display: flex;
+
+        height: 55px;
+        width: 205px;
+
+        padding: 10px;
+
+        cursor: pointer;
+
+        background-color: $bgColorButtonTrial;
+
+        .info {
+
+          width: 82%;
+
+          border-right: 1px solid #fff;
+
+          span {
+
+            margin-bottom: 4px;
+
+          }
+
+        }
+
+        .icon {
+
+          @include my_display_flex_center;
+
+          width: 18%;
+
+          .fa-download {
+
+            font-size: 25px;
+          }
+        }
+
+      }
 
     }
 
     .buy {
 
-      float: left;
+      height: 94%;
+      width: 20%;
 
-      width: 50%;
+      margin: 20px 0 0 25px;
+
+      background-color: rgba(0, 0, 0, 0.9);
 
     }
   }

@@ -72,23 +72,70 @@
   color: #989898;
 }
 .wrapper header #jumbo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 460px;
   width: 100%;
   background-image: url(imgs/jumbo.jpg);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: round;
 }
 .wrapper header #jumbo .download_buy_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100%;
-  width: 40%;
+  width: 100%;
 }
 .wrapper header #jumbo .download_buy_container .download {
-  float: left;
-  width: 50%;
+  padding: 35px 0;
+  color: #fff;
+}
+.wrapper header #jumbo .download_buy_container .download h1, .wrapper header #jumbo .download_buy_container .download h3 {
+  margin-bottom: 20px;
+}
+.wrapper header #jumbo .download_buy_container .download h1 {
+  font-size: 30px;
+}
+.wrapper header #jumbo .download_buy_container .download h3 {
+  font-size: 25px;
+}
+.wrapper header #jumbo .download_buy_container .download .download_list {
+  list-style-type: none;
+}
+.wrapper header #jumbo .download_buy_container .download .download_list li {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.wrapper header #jumbo .download_buy_container .download .download_list li .fas {
+  margin-right: 5px;
+  color: #989898;
+}
+.wrapper header #jumbo .download_buy_container .download .download_button_trial {
+  display: flex;
+  height: 55px;
+  width: 205px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #666;
+}
+.wrapper header #jumbo .download_buy_container .download .download_button_trial .info {
+  width: 82%;
+  border-right: 1px solid #fff;
+}
+.wrapper header #jumbo .download_buy_container .download .download_button_trial .info span {
+  margin-bottom: 4px;
+}
+.wrapper header #jumbo .download_buy_container .download .download_button_trial .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18%;
+}
+.wrapper header #jumbo .download_buy_container .download .download_button_trial .icon .fa-download {
+  font-size: 25px;
 }
 .wrapper header #jumbo .download_buy_container .buy {
-  float: left;
-  width: 50%;
+  height: 94%;
+  width: 20%;
+  margin: 20px 0 0 25px;
+  background-color: rgba(0, 0, 0, 0.9);
 }
