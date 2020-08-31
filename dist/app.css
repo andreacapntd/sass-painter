@@ -209,17 +209,78 @@
   text-decoration: none;
 }
 .wrapper main #nav_menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 65px;
   width: 100%;
   background-color: #E6E6E6;
 }
 .wrapper main #nav_menu #menu {
   display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 350px;
   list-style-type: none;
 }
 .wrapper main #nav_menu #menu li {
   margin-right: 25px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #555;
+}
+.wrapper main #nav_menu #menu #selected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border-bottom: 2px solid black;
+  background-color: #fff;
+}
+.wrapper main #beginners {
+  position: relative;
+  height: 900px;
+  padding-top: 50px;
+  background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg);
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+.wrapper main #beginners h2 {
+  font-size: 36px;
+}
+.wrapper main #beginners p {
+  margin: 20px 0 40px 0;
+  font-size: 18px;
+}
+.wrapper main #beginners span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+.wrapper main #beginners span img {
+  height: 35px;
+  margin-right: 20px;
+}
+.wrapper main #beginners .intro_container {
+  margin: 0 auto;
+}
+.wrapper main #beginners .intro_container #intro {
+  position: absolute;
+  height: 400px;
+  margin-top: 99px;
+  top: 0;
+  right: 50%;
+  transform: translate(50%, 50%);
+}
+.wrapper main #beginners .intro_container img {
+  height: 380px;
+  margin-top: 90px;
+}
+.wrapper main #beginners .intro_container .far {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  font-size: 75px;
+  color: #fff;
 }

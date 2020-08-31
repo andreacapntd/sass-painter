@@ -2,8 +2,6 @@ main {
 
   #nav_menu {
 
-    @include my_display_flex_center;
-    
     height: 65px;
     width: 100%;
 
@@ -12,13 +10,119 @@ main {
     #menu {
 
       display: flex;
+      align-items: center;
+
+      height: 100%;
+
+      padding: 0 350px;
 
       list-style-type: none;
 
       li {
 
         margin-right: 25px;
+
+        font-size: 20px;
+
+        cursor: pointer;
+
+        color: $colorMenu;
+
+
+      }
+
+      #selected {
+
+        @include my_display_flex_center;
+
+        height: 100%;
+
+        border-bottom: 2px solid black;
+        background-color: #fff;
+
       }
     }
+  }
+
+  #beginners {
+
+    position: relative;
+    height: 900px;
+
+    padding-top: 50px;
+
+    background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg);
+    background-repeat: no-repeat;
+
+    text-align: center;
+    color: #fff;
+
+    h2 {
+
+      font-size: 36px;
+
+    }
+
+    p {
+
+      margin: 20px 0 40px 0;
+
+      font-size: 18px;
+    }
+
+    span {
+
+      @include my_display_flex_center;
+
+      font-size: 18px;
+
+      cursor: pointer;
+
+      img {
+
+        height: 35px;
+
+        margin-right: 20px;
+
+      }
+
+    }
+
+    .intro_container {
+
+      margin: 0 auto;
+
+      #intro {
+
+        position: absolute;
+        height: 400px;
+        margin-top: 99px;
+        top: 0;
+        right: 50%;
+        transform: translate(50%, 50%);
+
+      }
+
+      img {
+
+        height: 380px;
+        margin-top: 90px;
+
+      }
+
+      .far {
+
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, 50%);
+
+        font-size: 75px;
+        color: #fff;
+        
+      }
+
+    }
+
   }
 }
