@@ -208,3 +208,18 @@
   color: #009cff;
   text-decoration: none;
 }
+.wrapper main #nav_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+  width: 100%;
+  background-color: #E6E6E6;
+}
+.wrapper main #nav_menu #menu {
+  display: flex;
+  list-style-type: none;
+}
+.wrapper main #nav_menu #menu li {
+  margin-right: 25px;
+}

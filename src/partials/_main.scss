@@ -1,0 +1,24 @@
+main {
+
+  #nav_menu {
+
+    @include my_display_flex_center;
+    
+    height: 65px;
+    width: 100%;
+
+    background-color: $bgColorMenu;
+
+    #menu {
+
+      display: flex;
+
+      list-style-type: none;
+
+      li {
+
+        margin-right: 25px;
+      }
+    }
+  }
+}
